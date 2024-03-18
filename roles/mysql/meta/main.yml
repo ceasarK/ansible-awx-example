@@ -1,0 +1,3 @@
+#dependencies: # 模板，依赖的角色，需要安装nginx 和 php 才会运行此task
+#  - { role: nginx }
+#  - { role: php }

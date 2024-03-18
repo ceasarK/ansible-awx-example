@@ -1,0 +1,9 @@
+---
+- name: 简化版-简化部署
+  hosts: all
+  remote_user: root
+  roles:
+    - mysql
+  tasks:
+  - name: mysql部署
+    shell: echo "Hi! Tower is working."
